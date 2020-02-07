@@ -3,10 +3,10 @@ Install docker&docker-compose with kernel tuning
 
 Make executable
 
-` chmod +x scrip_name.sh`
+` chmod +x script_name.sh`
 
 Run as root
 
-` sudo ./scrip_name.sh`
+` sudo ./script_name.sh`
 
 When done reboot your system. 
