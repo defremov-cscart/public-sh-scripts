@@ -18,6 +18,10 @@ echo '{
 	  ]
 	}' > /etc/docker/daemon.json
 
+echo -e "\n Tuning GRUB config...\n "
+sed -i 's/GRUB_CMDLINE_LINUX\s*=.*/GRUB_CMDLINE_LINUX="cgroup_enable=memory swapaccount=1"/g' /etc/default/grub
+update-grub
+
 echo -e "\n Creating kernel config...\n "
 touch /etc/sysctl.d/docker.conf
 echo 'net.ipv6.conf.default.accept_ra_rtr_pref = 0
