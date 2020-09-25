@@ -56,6 +56,7 @@ usermod -aG docker $USER
 apt -y install python3-pip
 pip3 install -U pip
 pip3 install docker-compose
+ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 echo -e "\n ====YOU NEED TO REBOOT SERVER====\n "
 
