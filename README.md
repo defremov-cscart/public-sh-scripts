@@ -1,5 +1,5 @@
 # public-sh-scripts
-Install docker&docker-compose with kernel tuning
+Install docker & docker-compose with kernel tuning
 
 Make executable
 
@@ -9,4 +9,4 @@ Run as root
 
 ` sudo ./script_name.sh`
 
-When done reboot your system. 
+When done reboot your system.
