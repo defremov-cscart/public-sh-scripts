@@ -12,7 +12,7 @@ mkdir /etc/docker
 touch /etc/docker/daemon.json
 
 echo '{
-    "dns": ["1.1.1.1"],
+          "dns": ["1.1.1.1"],
 	  "storage-driver": "overlay2",
 	  "storage-opts": [
  	   "overlay2.override_kernel_check=true"
