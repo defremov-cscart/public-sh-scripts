@@ -1,5 +1,4 @@
 # public-sh-scripts
-Install docker & docker-compose with kernel tuning
 
 Make executable
 
